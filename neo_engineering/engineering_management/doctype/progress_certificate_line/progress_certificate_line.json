@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "custom": 0,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "previous_pct",
+  "current_pct",
+  "cumulative_pct",
+  "certified_qty",
+  "certified_value",
+  "retention",
+  "allow_over_100"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "BOQ / PO Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "previous_pct",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Previous %"
+  },
+  {
+   "fieldname": "current_pct",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Current %"
+  },
+  {
+   "fieldname": "cumulative_pct",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Cumulative %",
+   "read_only": 1
+  },
+  {
+   "fieldname": "certified_qty",
+   "fieldtype": "Float",
+   "label": "Certified Quantity"
+  },
+  {
+   "fieldname": "certified_value",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Certified Value"
+  },
+  {
+   "fieldname": "retention",
+   "fieldtype": "Currency",
+   "label": "Retention"
+  },
+  {
+   "fieldname": "allow_over_100",
+   "fieldtype": "Check",
+   "label": "Variation (Allow > 100%)"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "module": "Engineering Management",
+ "name": "Progress Certificate Line",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
