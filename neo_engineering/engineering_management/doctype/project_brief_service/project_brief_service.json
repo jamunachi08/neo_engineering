@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "custom": 0,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "service_type",
+  "discipline",
+  "description",
+  "included",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "service_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Service Type",
+   "options": "Design Only\nDesign + Supervision\nSupervision Only\nDesign + Supervision + Execution\nProject Management + Supervision + Execution",
+   "reqd": 1
+  },
+  {
+   "fieldname": "discipline",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Discipline",
+   "options": "Architectural\nStructural\nMechanical\nElectrical\nPlumbing / Sanitary\nCivil\nLandscape\nInterior\nFire & Life Safety\nGeneral / Coordination\nOther"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "default": "1",
+   "fieldname": "included",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Included in Scope"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "module": "Engineering Management",
+ "name": "Project Brief Service",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
