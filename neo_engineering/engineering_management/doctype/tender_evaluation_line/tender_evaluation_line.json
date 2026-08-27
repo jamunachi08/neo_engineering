@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "custom": 0,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier",
+  "supplier_quotation",
+  "technical_score",
+  "commercial_score",
+  "total_score",
+  "rank",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "supplier_quotation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier Quotation",
+   "options": "Supplier Quotation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "technical_score",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Technical Score"
+  },
+  {
+   "fieldname": "commercial_score",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Commercial Score"
+  },
+  {
+   "fieldname": "total_score",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Weighted Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "rank",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Rank",
+   "read_only": 1
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "module": "Engineering Management",
+ "name": "Tender Evaluation Line",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

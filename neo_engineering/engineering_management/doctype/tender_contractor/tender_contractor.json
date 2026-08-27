@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "custom": 0,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier",
+  "specialty",
+  "invited",
+  "rfq",
+  "supplier_quotation",
+  "evaluation_status",
+  "recommended"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier / Contractor",
+   "options": "Supplier",
+   "reqd": 1
+  },
+  {
+   "fieldname": "specialty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Specialty"
+  },
+  {
+   "fieldname": "invited",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Invited"
+  },
+  {
+   "fieldname": "rfq",
+   "fieldtype": "Link",
+   "label": "Request for Quotation",
+   "options": "Request for Quotation"
+  },
+  {
+   "fieldname": "supplier_quotation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier Quotation",
+   "options": "Supplier Quotation"
+  },
+  {
+   "default": "Pending",
+   "fieldname": "evaluation_status",
+   "fieldtype": "Select",
+   "label": "Evaluation Status",
+   "options": "Pending\nUnder Evaluation\nQualified\nDisqualified"
+  },
+  {
+   "fieldname": "recommended",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Recommended"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "module": "Engineering Management",
+ "name": "Tender Contractor",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

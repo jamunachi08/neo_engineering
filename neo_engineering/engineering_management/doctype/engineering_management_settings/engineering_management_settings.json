@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "custom": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "prequalification_section",
+  "enable_contractor_prequalification",
+  "tender_section",
+  "default_tender_technical_weight",
+  "column_break_t1",
+  "default_tender_commercial_weight",
+  "sla_section",
+  "default_review_due_days",
+  "default_inspection_rectification_days",
+  "column_break_s1",
+  "warranty_reminder_days",
+  "waiver_section",
+  "allow_management_waiver",
+  "management_waiver_role",
+  "closure_section",
+  "require_project_closure_before_completion",
+  "auto_update_project_kpis"
+ ],
+ "fields": [
+  {
+   "fieldname": "prequalification_section",
+   "fieldtype": "Section Break",
+   "label": "Contractor Prequalification"
+  },
+  {
+   "default": "0",
+   "description": "When enabled, only Suppliers with an Approved, unexpired prequalification may be shortlisted on Tender Packages (BR-008).",
+   "fieldname": "enable_contractor_prequalification",
+   "fieldtype": "Check",
+   "label": "Enable Contractor Prequalification"
+  },
+  {
+   "fieldname": "tender_section",
+   "fieldtype": "Section Break",
+   "label": "Tender Defaults"
+  },
+  {
+   "default": "60",
+   "fieldname": "default_tender_technical_weight",
+   "fieldtype": "Percent",
+   "label": "Default Tender Technical Weight"
+  },
+  {
+   "fieldname": "column_break_t1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "40",
+   "fieldname": "default_tender_commercial_weight",
+   "fieldtype": "Percent",
+   "label": "Default Tender Commercial Weight"
+  },
+  {
+   "fieldname": "sla_section",
+   "fieldtype": "Section Break",
+   "label": "SLA Defaults"
+  },
+  {
+   "default": "7",
+   "fieldname": "default_review_due_days",
+   "fieldtype": "Int",
+   "label": "Default Review Due Days"
+  },
+  {
+   "default": "7",
+   "fieldname": "default_inspection_rectification_days",
+   "fieldtype": "Int",
+   "label": "Default Inspection Rectification Days"
+  },
+  {
+   "fieldname": "column_break_s1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "14",
+   "fieldname": "warranty_reminder_days",
+   "fieldtype": "Int",
+   "label": "Warranty Reminder Days"
+  },
+  {
+   "fieldname": "waiver_section",
+   "fieldtype": "Section Break",
+   "label": "Management Waiver"
+  },
+  {
+   "default": "1",
+   "fieldname": "allow_management_waiver",
+   "fieldtype": "Check",
+   "label": "Allow Management Waiver"
+  },
+  {
+   "default": "Engineering Management",
+   "fieldname": "management_waiver_role",
+   "fieldtype": "Link",
+   "label": "Management Waiver Role",
+   "options": "Role"
+  },
+  {
+   "fieldname": "closure_section",
+   "fieldtype": "Section Break",
+   "label": "Closure & KPIs"
+  },
+  {
+   "default": "1",
+   "description": "When enabled, ERPNext Project status may only be set to Completed after an approved Project Closure (BR-015). Design Only projects are exempt when an approved Design Only closure rule applies.",
+   "fieldname": "require_project_closure_before_completion",
+   "fieldtype": "Check",
+   "label": "Require Project Closure Before Completion"
+  },
+  {
+   "default": "1",
+   "fieldname": "auto_update_project_kpis",
+   "fieldtype": "Check",
+   "label": "Auto Update Project KPIs"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "issingle": 1,
+ "istable": 0,
+ "links": [],
+ "module": "Engineering Management",
+ "name": "Engineering Management Settings",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Engineering App Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Engineering Management",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
