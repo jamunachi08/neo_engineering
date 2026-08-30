@@ -2,7 +2,7 @@
 
 Wired via doc_events in hooks.py. Implements BR-001, BR-002, BR-015 and the
 KPI/stage summary updates of Sections 8 and 9.1. All ledger and transactional
-logic stays in standard ERPNext (Section 4.1); these hooks only validate and
+logic stays in standard core transactions (Section 4.1); these hooks only validate and
 summarize.
 """
 

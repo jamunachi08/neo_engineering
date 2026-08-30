@@ -1,4 +1,4 @@
-"""Custom fields on standard ERPNext DocTypes.
+"""Custom fields on standard core DocTypes.
 
 Implements Section 8 of the Technical Development Specification v1.0.
 Applied through frappe.custom.doctype.custom_field.custom_field
@@ -27,8 +27,9 @@ CUSTOM_FIELDS = {
     "Lead": [
         dict(fieldname="custom_engineering_section", fieldtype="Section Break",
              label="Engineering Enquiry", insert_after="notes_tab", collapsible=1),
-        dict(fieldname="custom_project_type", fieldtype="Data",
-             label="Project Type / Category", insert_after="custom_engineering_section"),
+        dict(fieldname="custom_project_type", fieldtype="Link",
+             label="Project Type", options="Project Type",
+             insert_after="custom_engineering_section"),
         dict(fieldname="custom_project_location", fieldtype="Data",
              label="Project Location", insert_after="custom_project_type"),
         dict(fieldname="custom_estimated_budget", fieldtype="Currency",

@@ -3,7 +3,7 @@
 BR-012: a Purchase Invoice linked to a Contractor Progress Certificate must
 not exceed the approved certified amount net of prior invoicing, unless an
 authorized variation (management waiver role) applies. Financial posting
-itself remains 100% standard ERPNext (Section 14).
+itself remains 100% in standard core transactions (Section 14).
 """
 
 import frappe

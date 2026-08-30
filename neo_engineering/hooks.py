@@ -2,7 +2,7 @@ app_name = "neo_engineering"
 app_title = "NeoEngineering"
 app_publisher = "NeoEngineering"
 app_description = (
-    "Single consolidated engineering business app for ERPNext v15: project "
+    "Single consolidated engineering business app for engineering consultancies: project "
     "brief, design control, technical review, BOQ, licensing, tendering, "
     "supervision, progress certification, handover, closure and warranty."
 )

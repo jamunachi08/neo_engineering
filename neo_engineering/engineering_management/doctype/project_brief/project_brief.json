@@ -64,8 +64,9 @@
   },
   {
    "fieldname": "project_type",
-   "fieldtype": "Data",
-   "label": "Project Type / Category"
+   "fieldtype": "Link",
+   "label": "Project Type",
+   "options": "Project Type"
   },
   {
    "fieldname": "project_location",

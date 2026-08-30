@@ -27,7 +27,7 @@ class ProjectClosure(Document):
 
 	def on_submit(self):
 		"""Section 9.1: approved closure sets Project Stage = Closed and
-		ERPNext Project Status = Completed."""
+		core Project Status = Completed."""
 		if self.project:
 			frappe.db.set_value("Project", self.project, {
 				"custom_closure_status": "Closed",

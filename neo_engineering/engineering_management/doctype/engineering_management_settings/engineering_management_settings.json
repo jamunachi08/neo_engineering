@@ -108,7 +108,7 @@
   },
   {
    "default": "1",
-   "description": "When enabled, ERPNext Project status may only be set to Completed after an approved Project Closure (BR-015). Design Only projects are exempt when an approved Design Only closure rule applies.",
+   "description": "When enabled, Project status may only be set to Completed after an approved Project Closure (BR-015). Design Only projects are exempt when an approved Design Only closure rule applies.",
    "fieldname": "require_project_closure_before_completion",
    "fieldtype": "Check",
    "label": "Require Project Closure Before Completion"
