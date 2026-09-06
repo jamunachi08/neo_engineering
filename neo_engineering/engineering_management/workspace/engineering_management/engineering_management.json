@@ -1,0 +1,488 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"blk001\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Engineering Process Pathway</b></span>\", \"col\": 12}}, {\"id\": \"blk000a\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"\\ud83d\\uddfa Process Map (start here)\", \"col\": 4}}, {\"id\": \"blk000b\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>New here?</b> Open the <b>Process Map</b> above \\u2014 a clickable flow chart of the whole engineering process. Every step opens the actual transaction (list or \\uff0b new) so you can work the process end to end without hunting for menus.\", \"col\": 12}}, {\"id\": \"blk002\", \"type\": \"paragraph\", \"data\": {\"text\": \"Follow the numbered stages top to bottom \\u2014 each stage feeds the next. <b>\\u26a0 Requires</b> lines are hard dependencies enforced by the system; <b>\\u279c Then</b> lines tell you where the flow goes next. Colors: <b>Blue</b> intake &amp; commercial \\u00b7 <b>Cyan</b> design \\u00b7 <b>Teal</b> technical \\u00b7 <b>Yellow</b> licensing \\u00b7 <b>Orange</b> tendering \\u00b7 <b>Red</b> site execution \\u00b7 <b>Green</b> close-out \\u00b7 <b>Grey</b> standard financial documents.\", \"col\": 12}}, {\"id\": \"blk003\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk004\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2460 Customer Intake \\u2014 capture the enquiry</b></span>\", \"col\": 12}}, {\"id\": \"blk005\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Lead\", \"col\": 3}}, {\"id\": \"blk006\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Opportunity\", \"col\": 3}}, {\"id\": \"blk007\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Project Brief\", \"col\": 3}}, {\"id\": \"blk008\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u279c Then:</b> Lead \\u2192 Opportunity \\u2192 <b>Project Brief</b> (get it Approved \\u2014 it is the requirements baseline).\", \"col\": 12}}, {\"id\": \"blk009\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk010\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2461 Proposal &amp; Contract \\u2014 win the work</b></span>\", \"col\": 12}}, {\"id\": \"blk011\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quotation\", \"col\": 3}}, {\"id\": \"blk012\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Project\", \"col\": 3}}, {\"id\": \"blk013\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u26a0 Requires:</b> an <b>Approved Project Brief</b> before creating the Project. The Project needs Service Type, Stage, Project Manager and Location (BR-001); Supervision Only work needs Design Origin = External or a linked Brief (BR-002).\", \"col\": 12}}, {\"id\": \"blk014\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u279c Then:</b> Project created \\u2192 Stage = Design. Everything below hangs off this Project.\", \"col\": 12}}, {\"id\": \"blk015\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk016\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2462 Design \\u2014 produce and control documents</b></span>\", \"col\": 12}}, {\"id\": \"blk017\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Site Visit\", \"col\": 3}}, {\"id\": \"blk018\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Engineering Document\", \"col\": 3}}, {\"id\": \"blk019\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Design Submission\", \"col\": 3}}, {\"id\": \"blk020\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u26a0 Requires:</b> every Design Submission needs \\u22651 Engineering Document revision (BR-003), and only each document's <b>Current</b> revision may be submitted (BR-004).\", \"col\": 12}}, {\"id\": \"blk021\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u279c Then:</b> Client Approved \\u2192 \\u2463 Technical Review. Revision Required \\u2192 new revision, resubmit (loop).\", \"col\": 12}}, {\"id\": \"blk022\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk023\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2463 Technical Review &amp; BOQ \\u2014 internal quality gate</b></span>\", \"col\": 12}}, {\"id\": \"blk024\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Technical Review\", \"col\": 3}}, {\"id\": \"blk025\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Project BOQ\", \"col\": 3}}, {\"id\": \"blk026\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u26a0 Requires:</b> all <b>mandatory review comments closed</b> before approval (BR-005). BOQ needs valid items \\u2014 UOM + quantity &gt; 0 (BR-006).\", \"col\": 12}}, {\"id\": \"blk027\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u279c Then:</b> Approved BOQ = the baseline for \\u2465 Tendering. A newer approved BOQ supersedes the old one automatically.\", \"col\": 12}}, {\"id\": \"blk028\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk029\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2464 Licensing \\u2014 authority approvals (runs in parallel)</b></span>\", \"col\": 12}}, {\"id\": \"blk030\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"License Application\", \"col\": 3}}, {\"id\": \"blk031\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u26a0 Requires:</b> all <b>mandatory checklist documents received</b> before Ready to Submit.\", \"col\": 12}}, {\"id\": \"blk032\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u279c Then:</b> License Approved \\u2192 project's License Status updates itself. Track expiry here too.\", \"col\": 12}}, {\"id\": \"blk033\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk034\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2465 Tendering &amp; Award \\u2014 select the contractor</b></span>\", \"col\": 12}}, {\"id\": \"blk035\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Tender Package\", \"col\": 3}}, {\"id\": \"blk036\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Tender Evaluation\", \"col\": 3}}, {\"id\": \"blk037\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RFQ\", \"col\": 3}}, {\"id\": \"blk038\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Supplier Quotation\", \"col\": 3}}, {\"id\": \"blk039\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Purchase Order (Award)\", \"col\": 3}}, {\"id\": \"blk040\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u26a0 Requires:</b> <b>Approved BOQ</b> to issue (BR-007) \\u00b7 valid <b>prequalified contractors</b> on the shortlist when prequalification is enabled (BR-008) \\u00b7 <b>Approved Tender Evaluation</b> to award (BR-009). Management may waive with a written reason.\", \"col\": 12}}, {\"id\": \"blk041\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u279c Then:</b> Award \\u2192 standard <b>Purchase Order</b> = the contract \\u2192 \\u2466 Execution.\", \"col\": 12}}, {\"id\": \"blk042\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk043\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2466 Execution &amp; Supervision \\u2014 control the site</b></span>\", \"col\": 12}}, {\"id\": \"blk044\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Site Inspection\", \"col\": 3}}, {\"id\": \"blk045\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Progress Certificate\", \"col\": 3}}, {\"id\": \"blk046\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Purchase Invoice\", \"col\": 3}}, {\"id\": \"blk047\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u26a0 Requires:</b> inspections cannot close with unverified High/Critical observations (BR-010) \\u00b7 cumulative certified progress \\u2264 100% unless flagged variation (BR-011) \\u00b7 Purchase Invoice \\u2264 certified balance on its certificate (BR-012).\", \"col\": 12}}, {\"id\": \"blk048\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u279c Then:</b> Certificate Approved \\u2192 Finance raises the Purchase Invoice \\u2192 standard Payment Entry.\", \"col\": 12}}, {\"id\": \"blk049\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk050\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2467 Handover &amp; Closure \\u2014 finish properly</b></span>\", \"col\": 12}}, {\"id\": \"blk051\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Project Handover\", \"col\": 3}}, {\"id\": \"blk052\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Project Closure\", \"col\": 3}}, {\"id\": \"blk053\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u26a0 Requires:</b> Handover: all mandatory documents delivered or waived (BR-013). Closure: full checklist + Financial and Technical clearance (BR-014). A Project can <b>only</b> become Completed after an approved Closure (BR-015).\", \"col\": 12}}, {\"id\": \"blk054\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u279c Then:</b> Closure approved \\u2192 Project flips to Closed / Completed automatically.\", \"col\": 12}}, {\"id\": \"blk055\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk056\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2468 Warranty \\u2014 after completion</b></span>\", \"col\": 12}}, {\"id\": \"blk057\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Warranty Issue\", \"col\": 3}}, {\"id\": \"blk058\", \"type\": \"paragraph\", \"data\": {\"text\": \"<b>\\u26a0 Requires:</b> closing a warranty/defect Issue needs resolution details + a named verifier (BR-016).\", \"col\": 12}}, {\"id\": \"blk059\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"blk060\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h5\\\"><b>\\u2699 Setup &amp; Masters</b></span>\", \"col\": 12}}, {\"id\": \"blk061\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Suppliers / Contractors\", \"col\": 3}}, {\"id\": \"blk062\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Settings\", \"col\": 3}}, {\"id\": \"blk063\", \"type\": \"paragraph\", \"data\": {\"text\": \"Maintain contractor prequalification on Suppliers; all behaviour switches (tender weights, SLAs, waiver role, closure enforcement) live in Settings.\", \"col\": 12}}]",
+ "custom_blocks": [],
+ "doctype": "Workspace",
+ "for_user": "",
+ "icon": "organization",
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Engineering Management",
+ "links": [
+  {
+   "hidden": 0,
+   "label": "\u2460 Intake & Proposal",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lead",
+   "link_count": 0,
+   "link_to": "Lead",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Opportunity",
+   "link_count": 0,
+   "link_to": "Opportunity",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quotation",
+   "link_count": 0,
+   "link_to": "Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Brief",
+   "link_count": 0,
+   "link_to": "Project Brief",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project",
+   "link_count": 0,
+   "link_to": "Project",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "label": "\u2462\u2013\u2463 Design & Technical",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Engineering Site Visit",
+   "link_count": 0,
+   "link_to": "Engineering Site Visit",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Engineering Document",
+   "link_count": 0,
+   "link_to": "Engineering Document",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Design Submission",
+   "link_count": 0,
+   "link_to": "Design Submission",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Technical Review",
+   "link_count": 0,
+   "link_to": "Technical Review",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project BOQ",
+   "link_count": 0,
+   "link_to": "Project BOQ",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "label": "\u2464 Licensing",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "License Application",
+   "link_count": 0,
+   "link_to": "License Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "label": "\u2465 Tender & Contracts",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tender Package",
+   "link_count": 0,
+   "link_to": "Tender Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tender Evaluation",
+   "link_count": 0,
+   "link_to": "Tender Evaluation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Request for Quotation",
+   "link_count": 0,
+   "link_to": "Request for Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier Quotation",
+   "link_count": 0,
+   "link_to": "Supplier Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Order",
+   "link_count": 0,
+   "link_to": "Purchase Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "label": "\u2466 Execution & Supervision",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Site Inspection",
+   "link_count": 0,
+   "link_to": "Site Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contractor Progress Certificate",
+   "link_count": 0,
+   "link_to": "Contractor Progress Certificate",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Invoice",
+   "link_count": 0,
+   "link_to": "Purchase Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "label": "\u2467\u2013\u2468 Close-out & Warranty",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Handover",
+   "link_count": 0,
+   "link_to": "Project Handover",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Closure",
+   "link_count": 0,
+   "link_to": "Project Closure",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Issue",
+   "link_count": 0,
+   "link_to": "Issue",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "label": "\u2699 Setup",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier",
+   "link_count": 0,
+   "link_to": "Supplier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Engineering Management Settings",
+   "link_count": 0,
+   "link_to": "Engineering Management Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "module": "Engineering Management",
+ "name": "Engineering Management",
+ "number_cards": [],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "",
+   "label": "\ud83d\uddfa Process Map (start here)",
+   "link_to": "engineering-process-map",
+   "type": "Page"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Lead",
+   "link_to": "Lead",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Opportunity",
+   "link_to": "Opportunity",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Project Brief",
+   "link_to": "Project Brief",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Quotation",
+   "link_to": "Quotation",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Project",
+   "link_to": "Project",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Site Visit",
+   "link_to": "Engineering Site Visit",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Engineering Document",
+   "link_to": "Engineering Document",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Design Submission",
+   "link_to": "Design Submission",
+   "type": "DocType"
+  },
+  {
+   "color": "Teal",
+   "doc_view": "List",
+   "label": "Technical Review",
+   "link_to": "Technical Review",
+   "type": "DocType"
+  },
+  {
+   "color": "Teal",
+   "doc_view": "List",
+   "label": "Project BOQ",
+   "link_to": "Project BOQ",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "License Application",
+   "link_to": "License Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Tender Package",
+   "link_to": "Tender Package",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "RFQ",
+   "link_to": "Request for Quotation",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Supplier Quotation",
+   "link_to": "Supplier Quotation",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Tender Evaluation",
+   "link_to": "Tender Evaluation",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Purchase Order (Award)",
+   "link_to": "Purchase Order",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Site Inspection",
+   "link_to": "Site Inspection",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Progress Certificate",
+   "link_to": "Contractor Progress Certificate",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Purchase Invoice",
+   "link_to": "Purchase Invoice",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Project Handover",
+   "link_to": "Project Handover",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Project Closure",
+   "link_to": "Project Closure",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Warranty Issue",
+   "link_to": "Issue",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "Suppliers / Contractors",
+   "link_to": "Supplier",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "Settings",
+   "link_to": "Engineering Management Settings",
+   "type": "DocType"
+  }
+ ],
+ "title": "Engineering Management"
+}
