@@ -1,0 +1,11 @@
+{
+ "doctype": "Page",
+ "name": "engineering-process-map",
+ "page_name": "engineering-process-map",
+ "title": "Engineering Process Map",
+ "icon": "organization",
+ "module": "Engineering Management",
+ "standard": "Yes",
+ "system_page": 0,
+ "roles": []
+}
