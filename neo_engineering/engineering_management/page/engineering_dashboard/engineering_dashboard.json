@@ -1,0 +1,11 @@
+{
+ "doctype": "Page",
+ "name": "engineering-dashboard",
+ "page_name": "engineering-dashboard",
+ "title": "Engineering Dashboard",
+ "icon": "dashboard",
+ "module": "Engineering Management",
+ "standard": "Yes",
+ "system_page": 0,
+ "roles": []
+}

@@ -1,0 +1,385 @@
+Project Brief,موجز المشروع
+Engineering Site Visit,زيارة موقع هندسية
+Engineering Document,مستند هندسي
+Design Submission,تقديم تصميم
+Technical Review,مراجعة فنية
+Project BOQ,جدول كميات المشروع
+License Application,طلب ترخيص
+Tender Package,حزمة مناقصة
+Tender Evaluation,تقييم مناقصة
+Site Inspection,تفتيش موقع
+Contractor Progress Certificate,شهادة إنجاز مقاول
+Project Handover,تسليم المشروع
+Project Closure,إقفال المشروع
+Engineering Management Settings,إعدادات الإدارة الهندسية
+Engineering Management,الإدارة الهندسية
+BOQ Item,بند جدول الكميات
+Inspection Observation,ملاحظة تفتيش
+Progress Certificate Line,بند شهادة الإنجاز
+Technical Review Comment,ملاحظة مراجعة فنية
+Engineering Document Revision,مراجعة مستند هندسي
+Project,المشروع
+Customer,العميل
+Supplier,المورد
+Series,التسلسل
+Status,الحالة
+Company,الشركة
+Visit Date,تاريخ الزيارة
+Purpose,الغرض
+Attendees,الحضور
+Observations,الملاحظات
+Follow-up Actions,إجراءات المتابعة
+Document No.,رقم المستند
+Title,العنوان
+Discipline,التخصص
+Document Type,نوع المستند
+Source / Origin,المصدر
+Document Status,حالة المستند
+Current Revision,المراجعة الحالية
+Revision History,سجل المراجعات
+Revision,المراجعة
+Revision Date,تاريخ المراجعة
+File,الملف
+Issued By,أصدره
+Reason for Revision,سبب المراجعة
+Current,حالية
+Superseded,ملغاة
+Approved By,اعتمده
+Approval Date,تاريخ الاعتماد
+Submission Date,تاريخ التقديم
+Sent to Client On,أُرسل للعميل في
+Submitted Documents,المستندات المقدمة
+Client Response,رد العميل
+Client Comments,ملاحظات العميل
+Review Date,تاريخ المراجعة
+Review Result,نتيجة المراجعة
+Comments,الملاحظات
+Comment No.,رقم الملاحظة
+Comment,الملاحظة
+Severity,الخطورة
+Mandatory,إلزامي
+Responsible,المسؤول
+Response,الرد
+Closure Date,تاريخ الإغلاق
+BOQ Date,تاريخ جدول الكميات
+BOQ Items,بنود جدول الكميات
+Item / Group,البند / المجموعة
+Item,الصنف
+Description,الوصف
+UOM,وحدة القياس
+Quantity,الكمية
+Estimated Rate,السعر التقديري
+Amount,المبلغ
+Specification,المواصفة
+Cost Code,رمز التكلفة
+Total Estimated Amount,إجمالي المبلغ التقديري
+Licensing Authority,جهة الترخيص
+License Type,نوع الترخيص
+Required Documents,المستندات المطلوبة
+Document Name,اسم المستند
+Received,مستلم
+Validated,مدقق
+Expiry,الانتهاء
+Planned Submission Date,تاريخ التقديم المخطط
+Actual Submission Date,تاريخ التقديم الفعلي
+Issued License No.,رقم الرخصة الصادرة
+License Expiry,انتهاء الرخصة
+Tender Round,جولة المناقصة
+Issue Date,تاريخ الطرح
+Bid Deadline,موعد إغلاق العطاءات
+Tender Scope / Description,نطاق المناقصة / الوصف
+Contractor Shortlist,القائمة المختصرة للمقاولين
+Contractors,المقاولون
+Supplier / Contractor,المورد / المقاول
+Specialty,التخصص
+Invited,مدعو
+Recommended,موصى به
+Management Waiver Applied,تم تطبيق استثناء إداري
+Waiver Reason,سبب الاستثناء
+Awarded Contractor,المقاول المرسى عليه
+Award Purchase Order,أمر الشراء للترسية
+Technical Weight %,وزن التقييم الفني %
+Commercial Weight %,وزن التقييم التجاري %
+Evaluation Lines,بنود التقييم
+Technical Score,الدرجة الفنية
+Commercial Score,الدرجة التجارية
+Weighted Total,الإجمالي الموزون
+Rank,الترتيب
+Recommended Contractor,المقاول الموصى به
+Recommendation Notes,ملاحظات التوصية
+Inspection Date,تاريخ التفتيش
+Inspection Type,نوع التفتيش
+Result,النتيجة
+Observation,الملاحظة
+Category,الفئة
+Mandatory Rectification,معالجة إلزامية
+Responsible Party,الجهة المسؤولة
+Responsible Supplier,المورد المسؤول
+Due Date,تاريخ الاستحقاق
+Evidence,الدليل
+Period From,الفترة من
+Period To,الفترة إلى
+Certificate Lines,بنود الشهادة
+BOQ / PO Item,بند الكميات / أمر الشراء
+Previous %,السابق %
+Current %,الحالي %
+Cumulative %,التراكمي %
+Certified Quantity,الكمية المعتمدة
+Certified Value,القيمة المعتمدة
+Retention,المحتجز
+Variation (Allow > 100%),أمر تغيير (يسمح بتجاوز 100%)
+Total Certified Amount,إجمالي المبلغ المعتمد
+Retention %,نسبة المحتجز %
+Retention Amount,مبلغ المحتجز
+Net Certified Amount,صافي المبلغ المعتمد
+Handover Date,تاريخ التسليم
+Customer Accepted,قبول العميل
+Acceptance Date,تاريخ القبول
+Snagging Summary,ملخص الملاحظات النهائية
+Handover Documents,مستندات التسليم
+Document / Manual / Drawing,مستند / دليل / مخطط
+Required,مطلوب
+Delivered,مسلَّم
+Accepted,مقبول
+Financial Clearance,إخلاء الطرف المالي
+Technical Clearance,إخلاء الطرف الفني
+Closure Checklist,قائمة الإقفال
+Checklist,القائمة
+Requirement,المتطلب
+Responsible Role,الدور المسؤول
+Completed,مكتمل
+Completion Date,تاريخ الإكمال
+Remarks,ملاحظات
+Owner Requirements & Objectives,متطلبات وأهداف المالك
+Required Services,الخدمات المطلوبة
+Service Type,نوع الخدمة
+Included in Scope,ضمن النطاق
+Initial Document Checklist,قائمة المستندات الأولية
+Project Type / Category,نوع / فئة المشروع
+Project Type,نوع المشروع
+Project Location,موقع المشروع
+Estimated Budget,الميزانية التقديرية
+Project Stage,مرحلة المشروع
+Design Origin,مصدر التصميم
+Client Contract No.,رقم عقد العميل
+Contract Date,تاريخ العقد
+Contract Value,قيمة العقد
+Project Manager,مدير المشروع
+Design Lead,رئيس التصميم
+Technical Manager,المدير الفني
+Supervision Manager,مدير الإشراف
+Primary Contractor,المقاول الرئيسي
+License Status,حالة الترخيص
+Tender Status,حالة المناقصة
+Closure Status,حالة الإقفال
+Document Completion %,نسبة اكتمال المستندات %
+Engineering Progress %,نسبة الإنجاز الهندسي %
+Site Progress %,نسبة إنجاز الموقع %
+Engineering Control,الضبط الهندسي
+Scope & Contract,النطاق والعقد
+Responsibility,المسؤولية
+Stage Status Summary,ملخص حالات المراحل
+Architectural,معماري
+Structural,إنشائي
+Mechanical,ميكانيكي
+Electrical,كهربائي
+Plumbing / Sanitary,صحي
+Civil,مدني
+Landscape,تنسيق مواقع
+Interior,تصميم داخلي
+Fire & Life Safety,الحريق وسلامة الحياة
+General / Coordination,عام / تنسيق
+Other,أخرى
+Internal,داخلي
+External,خارجي
+Low,منخفضة
+Medium,متوسطة
+High,عالية
+Critical,حرجة
+Open,مفتوحة
+Responded,تم الرد
+Closed,مغلقة
+Rectified,تمت المعالجة
+Verified,تم التحقق
+Pending,قيد الانتظار
+Approved,معتمد
+Approved with Comments,معتمد مع ملاحظات
+Revision Required,مطلوب تعديل
+Rejected,مرفوض
+For Approval,للاعتماد
+For Information,للاطلاع
+For Construction,للتنفيذ
+Draft,مسودة
+For Internal Review,للمراجعة الداخلية
+For Client Review,لمراجعة العميل
+For Technical Review,للمراجعة الفنية
+As-Built,كما نُفذ
+Archived,مؤرشف
+Passed,مجتاز
+Passed with Observations,مجتاز مع ملاحظات
+Failed,غير مجتاز
+Design Only,تصميم فقط
+Design + Supervision,تصميم وإشراف
+Supervision Only,إشراف فقط
+Design + Supervision + Execution,تصميم وإشراف وتنفيذ
+Project Management + Supervision + Execution,إدارة مشاريع وإشراف وتنفيذ
+Customer Intake,استقبال العميل
+Proposal / Contract,العرض / العقد
+Design,التصميم
+Licensing,الترخيص
+Tendering,المناقصات
+Execution,التنفيذ
+Supervision,الإشراف
+Handover,التسليم
+Closure,الإقفال
+Post-Completion,ما بعد الإنجاز
+On Hold,معلق
+Cancelled,ملغي
+Internal Review,المراجعة الداخلية
+Client Confirmed,تأكيد العميل
+Submit for Review,إرسال للمراجعة
+Confirm with Client,التأكيد مع العميل
+Return to Draft,إعادة إلى المسودة
+Approve,اعتماد
+Supersede,إلغاء واستبدال
+Submitted for Internal Review,مقدم للمراجعة الداخلية
+Ready for Client,جاهز للعميل
+Sent to Client,أُرسل للعميل
+Submit for Internal Review,إرسال للمراجعة الداخلية
+Mark Ready for Client,تجهيز للعميل
+Send to Client,إرسال للعميل
+Record Revision Required,تسجيل طلب تعديل
+Record Client Approval,تسجيل اعتماد العميل
+Under Review,قيد المراجعة
+Comments Issued,صدرت الملاحظات
+Resubmitted,أُعيد التقديم
+Start Review,بدء المراجعة
+Issue Comments,إصدار الملاحظات
+Record Resubmission,تسجيل إعادة التقديم
+Reject,رفض
+Prepared,معد
+Mark Prepared,تم الإعداد
+Send for Technical Review,إرسال للمراجعة الفنية
+Documents Pending,بانتظار المستندات
+Ready to Submit,جاهز للتقديم
+Submitted,مقدم
+Authority Comments,ملاحظات الجهة
+Expired,منتهي
+Start Document Collection,بدء جمع المستندات
+Mark Ready to Submit,تجهيز للتقديم
+Submit to Authority,التقديم للجهة
+Record Authority Comments,تسجيل ملاحظات الجهة
+Record Approval,تسجيل الموافقة
+Record Rejection,تسجيل الرفض
+Mark Expired,وضع علامة منتهي
+Shortlisting,إعداد القائمة المختصرة
+Issued,مطروحة
+Bids Received,استُلمت العطاءات
+Evaluation,التقييم
+Negotiation,التفاوض
+Award Recommended,توصية بالترسية
+Awarded,مرسّاة
+Start Shortlisting,بدء القائمة المختصرة
+Issue,طرح
+Record Bids Received,تسجيل استلام العطاءات
+Start Evaluation,بدء التقييم
+Start Negotiation,بدء التفاوض
+Recommend Award,التوصية بالترسية
+Award,الترسية
+Technical Evaluation,التقييم الفني
+Commercial Evaluation,التقييم التجاري
+Final Review,المراجعة النهائية
+Start Technical Evaluation,بدء التقييم الفني
+Start Commercial Evaluation,بدء التقييم التجاري
+Send for Final Review,إرسال للمراجعة النهائية
+Inspected,تم التفتيش
+Observations Open,ملاحظات مفتوحة
+Rectification Submitted,قُدمت المعالجة
+Record Inspection,تسجيل التفتيش
+Open Observations,فتح الملاحظات
+Submit Rectification,تقديم المعالجة
+Verify,التحقق
+Reopen Observations,إعادة فتح الملاحظات
+Close,إغلاق
+Verify and Close,التحقق والإغلاق
+Engineer Review,مراجعة المهندس
+PM Review,مراجعة مدير المشروع
+Submit for Engineer Review,إرسال لمراجعة المهندس
+Send to PM Review,إرسال لمراجعة مدير المشروع
+Snagging,الملاحظات النهائية
+Ready for Handover,جاهز للتسليم
+Customer Review,مراجعة العميل
+Start Snagging,بدء الملاحظات النهائية
+Mark Ready for Handover,تجهيز للتسليم
+Send for Customer Review,إرسال لمراجعة العميل
+Accept,قبول
+Start Financial Clearance,بدء إخلاء الطرف المالي
+Start Technical Clearance,بدء إخلاء الطرف الفني
+Send for Management Approval,إرسال لاعتماد الإدارة
+Management Approval,اعتماد الإدارة
+Engineering Process Map,خريطة العمليات الهندسية
+Engineering Project Process Flow Chart,مخطط سير عمليات المشاريع الهندسية
+From Client Onboarding to Handover — click any step to open or create the transaction,من استقبال العميل إلى التسليم — انقر أي خطوة لفتح المعاملة أو إنشائها
+Client,العميل
+Architectural Design Department,قسم التصميم المعماري
+Technical Department,القسم الفني
+Supervision / Construction Department,قسم الإشراف / التنفيذ
+Project Management,إدارة المشاريع
+Start,البداية
+End,النهاية
+Client Inquiry and Meeting,استفسار العميل والاجتماع
+Prepare Technical & Financial Proposal,إعداد العرض الفني والمالي
+Sign Contract and Project Kick-off,توقيع العقد وانطلاق المشروع
+Site Visit and Data Collection,زيارة الموقع وجمع البيانات
+Prepare Design,إعداد التصميم
+Submit Design for Client Review,تقديم التصميم لمراجعة العميل
+Finalize Drawings and Obtain Permits,اعتماد المخططات واستخراج التراخيص
+Approve Drawings and Bill of Quantities (BOQ),اعتماد المخططات وجدول الكميات
+Tendering / Direct Assignment,المناقصة / الإسناد المباشر
+Project Execution and Supervision,تنفيذ المشروع والإشراف
+Project Closure and Handover,إقفال المشروع والتسليم
+"Client
+Approves?","هل يوافق
+العميل؟"
+"Client
+Approval?","موافقة
+العميل؟"
+"Any
+Remarks?","هل توجد
+ملاحظات؟"
+Discuss Revisions / Alternatives,مناقشة التعديلات / البدائل
+Revise Design (as per comments),تعديل التصميم (حسب الملاحظات)
+Send Back for Corrections,الإعادة للتصحيح
+Warranty & Defects after completion (BR-016),الضمان والعيوب بعد الإنجاز (BR-016)
+Yes,نعم
+No,لا
+after completion,بعد الإنجاز
+Key Outputs at Each Stage:,المخرجات الرئيسية لكل مرحلة:
+Note:,ملاحظة:
+"The process may vary based on project type, client requirements, and contract terms. Hover any BR-0xx code for the exact system rule.",قد تختلف العملية بحسب نوع المشروع ومتطلبات العميل وشروط العقد. مرّر على أي رمز BR لمعرفة قاعدة النظام.
+Client Onboarding,استقبال العميل
+Design & Permits,التصميم والتراخيص
+Tendering / Execution,المناقصات / التنفيذ
+Open list,فتح القائمة
+Create new,إنشاء جديد
+Refresh,تحديث
+Engineering Dashboard,لوحة القيادة الهندسية
+Active Projects,المشاريع النشطة
+Design Submissions with Client,تقديمات التصميم لدى العميل
+Pending Technical Reviews,مراجعات فنية معلقة
+Licenses in Progress,تراخيص قيد الإجراء
+Tenders in Progress,مناقصات قيد الإجراء
+Open Site Observations,ملاحظات موقع مفتوحة
+Certified This Month (SAR),المعتمد هذا الشهر (ريال)
+Open Warranty Issues,بلاغات ضمان مفتوحة
+Projects by Stage,المشاريع حسب المرحلة
+Engineering Documents by Status,المستندات الهندسية حسب الحالة
+Certified Amounts — Last 6 Months,المبالغ المعتمدة — آخر ٦ أشهر
+Recent Projects,أحدث المشاريع
+Stage,المرحلة
+Docs %,المستندات %
+Site %,الموقع %
+No projects yet,لا توجد مشاريع بعد
+No data yet,لا توجد بيانات بعد
+Process Map,خريطة العمليات
+Unset,غير محدد
